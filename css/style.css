@@ -1,0 +1,76 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.col-1 {
+  background:#242424;
+  height: 100vh;
+}
+.col-2 {
+  
+  height: 100vh;
+}
+.col-2-content{
+  position: relative;
+  top:6em;
+  margin: 0 auto;
+}
+.decagon-logo {
+  padding: 2em;
+  margin-bottom: 4em;
+}
+.welcome-text {
+  padding: 2em;
+}
+.welcome-text h4 {
+  font-family: Volte;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 29px;
+  line-height: 35px;
+  text-align: center;
+  color: #242424;
+}
+.teams-logo {
+  padding: 2em;
+  margin-bottom: 0.5em;
+}
+.button {
+width: 20em;
+height: 3em;
+background: #34A853;
+border-radius: 10px;
+
+
+font-family: Volte;
+font-style: normal;
+font-weight: 600;
+font-size: 2em;
+
+
+color: #FFFFFF;
+
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: block;
+  }
+  .col-1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  .button {
+    width: 15em;
+    
+    }
+}
+
+@media screen and (max-width: 280px) {
+  .button {
+    width: 15em;
+    font-size: 1.5em;
+    }
+}

@@ -1,0 +1,90 @@
+/* Remove default styles */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+:link,
+:visited {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+body,
+html,
+p,
+blockquote,
+fieldset,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+a img,
+:link img,
+:visited img {
+  border: none;
+}
+
+address {
+  font-style: normal;
+}
+
+/* classes for floating and clearing */
+.clear 
+    { 
+    clear:both; 
+} 
+
+.right 
+    { 
+    float: right; 
+} 
+
+.left 
+    { 
+    float: left; 
+}
+
+
+/* Set the document up */
+body 
+    { 
+    font: 62.5%/1.5  "Lucida Grande", "Lucida Sans", Tahoma, Verdana, sans-serif; 
+    background: #FFFFFF;
+    color: #000000;     
+    text-align:center; 
+    height: 100%;
+} 
+
+
+/* Tables  */ 
+
+table 
+  {  
+  border-spacing: 0; 
+  border-collapse: collapse; 
+} 
+
+td  
+  { 
+  text-align: left; 
+  font-weight: normal; 
+}
