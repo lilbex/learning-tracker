@@ -167,3 +167,71 @@ progress{
   border-radius: 10px;
   margin-right: 3px;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: block;
+    height: auto;
+    
+  }
+  /* Media query for sidebar */
+  .col-1 {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #E5E5E5;
+  }
+  .decagon-logo-img {width: 60px;}
+  .overview-img{width: 50px;}
+  .book-img{width: 50px;}
+  .logout-img{width: 50px;}
+
+  .contents{
+    padding: 10px;
+    margin-top: 10px;
+    
+  }
+  .logo{
+    position: relative;
+    margin-bottom: 0px;
+    right: 230px;
+
+  }
+  .side-bar{
+    display: flex;
+  }
+  .logout{
+    position: relative;
+    top: 0px;
+  }
+  .main-area{
+    display:block;
+  }
+  .right-card{
+    margin: 0 auto;
+    margin-top: 20px
+  }
+}
+@media screen and (max-width: 540px) {
+  .logo{
+    right:95px;
+}
+}
+@media screen and (max-width: 411px) {
+  .logo{
+    right:15px;
+
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .logo{
+    margin-right:50px;
+
+  }
+
+  /* end of media query for sidebar */
+
+  /* Media query for main area */
+  
+}
