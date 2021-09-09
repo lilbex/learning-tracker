@@ -5,7 +5,6 @@ body{
 .container {
   display: grid;
   grid-template-columns: 1fr 11fr;
-  height: auto;
   
 }
 
@@ -42,7 +41,7 @@ body{
 }
 .logout{
   position: relative;
-  top: 500px;
+  top: 250px;
 }
 
 /* Main area stylying */
